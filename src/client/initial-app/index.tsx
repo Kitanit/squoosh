@@ -40,7 +40,7 @@ main();
   // Load the GA script without keeping the browser spinner going.
   addEventListener('load', () => {
     const script = document.createElement('script');
-    script.src = 'https://www.google-analytics.com/analytics.js';
+    script.src = '';
     document.head.appendChild(script);
   });
 }
